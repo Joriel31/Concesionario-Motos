@@ -1,0 +1,108 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+/* Encabezado y Navegación */
+header {
+    background-color: #000000;
+    color: #72bf44; /* Verde Kawasaki */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #72bf44;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #72bf44;
+}
+
+/* Contenido Principal */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+}
+
+/* Galería de Motos */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+figure {
+    background-color: #2a2a2a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #72bf44;
+}
+
+/* Formulario de Contacto */
+form {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #fff;
+}
+
+button {
+    background-color: #72bf44;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5ea336;
+}
