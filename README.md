@@ -13,4 +13,4 @@ Proyecto web desarrollado para la materia de desarrollo web. Presenta una vitrin
 * `feature-galeria`: Rama de característica para la construcción de la galería de imágenes.
 
 ## Autor
-* Keydel Vargas Mora - Proyecto Git/GitHub
+* Keydel Vargas Mora, Jonathan Mejia - Proyecto Git/GitHub
